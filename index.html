@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Echoes of 1896</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>THE ECHOES OF 1896</h1>
+            <p class="subtitle">"If we don't know where the revolution began, how do we know where we are going?"</p>
+        </div>
+    </header>
+
+    <section class="mission">
+        <div class="container">
+            <h2>OUR SHARED MISSION</h2>
+            <p>Together, we will stop being passive consumers of history and start becoming <strong>architects of our national narrative.</strong></p>
+        </div>
+    </section>
+
+    <section class="voices-section">
+        <div class="container">
+            <h2 class="section-title">A MOSAIC OF PERSPECTIVES</h2>
+            <div class="voices-grid">
+                <div class="voice-card" onclick="showDetails('valenzuela')">
+                    <h3>Dr. Pio Valenzuela</h3>
+                    <p class="tagline">"The Physician's Precision"</p>
+                </div>
+                <div class="voice-card" onclick="showDetails('alvarez')">
+                    <h3>Santiago Alvarez</h3>
+                    <p class="tagline">"The Strategist's Detail"</p>
+                </div>
+                <div class="voice-card" onclick="showDetails('masangkay')">
+                    <h3>Guillermo Masangkay</h3>
+                    <p class="tagline">"The General's Fire"</p>
+                </div>
+            </div>
+
+            <div id="info-box" class="info-box">
+                <p>Click a name above to reveal their specific account of the revolution.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
