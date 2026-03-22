@@ -21,13 +21,20 @@ body {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-background-image.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('headerbg.jpg');
     background-size: cover;
     color: white;
     padding: 100px 20px;
 }
 
-h1 { font-size: 3rem; letter-spacing: 2px; color: var(--gold); }
+h1 { 
+    font-size: 3rem; 
+    letter-spacing: 2px; 
+    color: var(--gold); 
+    font-family: 'Kings', serif;
+    font-weight: 700;
+}
+
 
 .voices-grid {
     display: grid;
